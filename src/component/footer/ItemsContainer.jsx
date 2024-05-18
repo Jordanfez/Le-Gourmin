@@ -7,7 +7,7 @@ import { COMPANY, PRODUCTS, RESOURCES, SUPPORT } from "./Menus";
 const ItemsContainer = () => {
   useEffect(() => {
     AOS.init({
-      duration: 2000, // Durée des animations en ms
+      duration: 2000, // Durée des animations en ms.
     });
   }, []);
   return (
